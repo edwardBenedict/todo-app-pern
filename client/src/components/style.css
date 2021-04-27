@@ -2,3 +2,11 @@
   width: 100px;
   margin-top: 25px;
 }
+
+.list-header {
+  background-color: #c1518a;
+}
+
+.header-text {
+  color: #c1518a;
+}

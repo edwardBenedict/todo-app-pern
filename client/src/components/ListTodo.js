@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
-
 import EditTodo from "./EditTodo";
+import "./style.css";
 
 const ListTodo = () => {
   const [todos, setTodos] = useState([]);
@@ -40,7 +40,7 @@ const ListTodo = () => {
   return (
     <Fragment>
       <table className="table mt-5 text-center">
-        <thead className="bg-secondary text-white">
+        <thead className="list-header text-white">
           <tr>
             <th>Description</th>
             <th>Edit</th>
